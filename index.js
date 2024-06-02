@@ -21,3 +21,20 @@ btnMenos.addEventListener("click", ()=>{
     contador = contador - 1
     result.innerHTML = contador
 })
+
+//resultado final//
+const total = document.querySelector('.valor-total')
+
+btnmas.addEventListener("click",()=>{
+    let operacion = Number(precio)*Number(contador)
+
+    total.innerHTML = operacion
+})
+
+btnMenos.addEventListener("click",()=>{
+    let operacion = Number(precio)*Number(contador)
+    total.innerHTML = operacion
+})
+
+
+
